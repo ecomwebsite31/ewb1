@@ -1,0 +1,23 @@
+/* src/app/checkout/checkout.component.scss */
+.checkout-card {
+    background-color: #f8f9fa; /* Light gray background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkout-item {
+    background-color: #fff; /* White background color for each item */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkout-item h5 {
+    color: #007bff; /* Blue color for item names */
+  }
+  
+  /* Add more styles as needed */
+  

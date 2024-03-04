@@ -1,0 +1,51 @@
+/* src/app/registration/registration.component.scss */
+.registration-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      text-align: center;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      .form-group {
+        margin-bottom: 15px;
+  
+        label {
+          margin-bottom: 5px;
+          display: block;
+        }
+  
+        input {
+          width: 100%;
+          padding: 8px;
+          font-size: 14px;
+          border: 1px solid #ddd;
+          border-radius: 3px;
+        }
+      }
+  
+      button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 3px;
+  
+        &:disabled {
+          background-color: #ccc;
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+  

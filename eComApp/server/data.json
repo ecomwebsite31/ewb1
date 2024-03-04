@@ -1,0 +1,110 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "description": "High-performance laptop with the latest processor and graphics card.",
+        "price": 999.99,
+        "image": "https://source.unsplash.com/300x200/?laptop"
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "description": "Feature-packed smartphone with a stunning display and advanced camera.",
+        "price": 599.99,
+        "image": "https://source.unsplash.com/300x200/?smartphone"
+      },
+      {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "description": "Noise-canceling wireless headphones with immersive sound quality.",
+        "price": 149.99,
+        "image": "https://source.unsplash.com/300x200/?headphones"
+      },
+      {
+        "id": 4,
+        "name": "4K Smart TV",
+        "description": "Ultra HD Smart TV with a large screen and smart features for streaming.",
+        "price": 799.99,
+        "image": "https://source.unsplash.com/300x200/?tv"
+      },
+      {
+        "id": 5,
+        "name": "Fitness Tracker",
+        "description": "Advanced fitness tracker with heart rate monitoring and GPS.",
+        "price": 79.99,
+        "image": "https://source.unsplash.com/300x200/?fitness"
+      },
+      {
+        "id": 6,
+        "name": "Gaming Console",
+        "description": "Next-gen gaming console with powerful hardware for an immersive gaming experience.",
+        "price": 499.99,
+        "image": "https://source.unsplash.com/300x200/?gaming"
+      },
+      {
+        "id": 7,
+        "name": "Digital Camera",
+        "description": "Professional-grade digital camera with high-resolution imaging capabilities.",
+        "price": 899.99,
+        "image": "https://source.unsplash.com/300x200/?camera"
+      },
+      {
+        "id": 8,
+        "name": "Coffee Maker",
+        "description": "High-quality coffee maker for brewing the perfect cup of coffee at home.",
+        "price": 49.99,
+        "image": "https://source.unsplash.com/300x200/?coffee"
+      },
+      {
+        "id": 9,
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse with precision tracking for efficient work.",
+        "price": 29.99,
+        "image": "https://source.unsplash.com/300x200/?mouse"
+      },
+      {
+        "id": 10,
+        "name": "Bluetooth Speaker",
+        "description": "Portable Bluetooth speaker with crystal-clear audio for music lovers.",
+        "price": 69.99,
+        "image": "https://source.unsplash.com/300x200/?speaker"
+      },
+      {
+        "id": 11,
+        "name": "External Hard Drive",
+        "description": "High-capacity external hard drive for secure data storage.",
+        "price": 129.99,
+        "image": "https://source.unsplash.com/300x200/?hard-drive"
+      },
+      {
+        "id": 12,
+        "name": "Electric Toothbrush",
+        "description": "Smart electric toothbrush for effective oral hygiene.",
+        "price": 39.99,
+        "image": "https://source.unsplash.com/300x200/?toothbrush"
+      },
+      {
+        "id": 13,
+        "name": "Portable Charger",
+        "description": "Compact portable charger for charging devices on the go.",
+        "price": 19.99,
+        "image": "https://source.unsplash.com/300x200/?charger"
+      },
+      {
+        "id": 14,
+        "name": "Wireless Keyboard",
+        "description": "Full-sized wireless keyboard for comfortable typing.",
+        "price": 49.99,
+        "image": "https://source.unsplash.com/300x200/?keyboard"
+      },
+      {
+        "id": 15,
+        "name": "Smart Thermostat",
+        "description": "Energy-efficient smart thermostat for home climate control.",
+        "price": 89.99,
+        "image": "https://source.unsplash.com/300x200/?thermostat"
+      }
+    ]
+  }
+  

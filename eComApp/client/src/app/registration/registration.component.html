@@ -1,0 +1,39 @@
+<!-- src/app/registration/registration.component.html -->
+<div class="container mt-5">
+    <div class="col-md-6 offset-md-3">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h2 class="text-center">User Registration</h2>
+            </div>
+            <div class="card-body">
+                <form (ngSubmit)="register()" #registrationForm="ngForm">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" [(ngModel)]="user.username"
+                            class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" [(ngModel)]="user.password"
+                            class="form-control" required>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success" [disabled]="registrationForm.invalid">
+                            Register
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <!-- src/app/registration/registration.component.html -->
+            <!-- ... your existing HTML ... -->
+
+            <div class="card-footer text-muted text-center">
+                <p class="text-danger">{{ errorMessage }}</p>
+                Already have an account? <a routerLink="/login" class="text-primary">Login here</a>.
+            </div>
+
+        </div>
+    </div>
+</div>
